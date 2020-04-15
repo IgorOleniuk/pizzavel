@@ -12,7 +12,7 @@
 
             @if ($orders->count() == 0)
               <p>No orders yet.</p>
-              <a class="btn btn-success" href="{{ route('user.orders.create') }}">Order Pizza</a>
+              <a class="btn btn-success" href="{{ route('order') }}">Order Pizza</a>
 
             @else
             <div class="table-responsive">
